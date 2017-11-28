@@ -1,0 +1,239 @@
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+h5 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+h3 {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+
+}
+
+p {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+.tabBar {
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	background-color: rgba(250, 250, 250, 0.6);
+	margin-top: -80px;
+}
+
+.imagesTab {
+	height: 55%;
+	width: 20%;
+	align-content: center;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.imagesTab img {
+	height: 90%;
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
+.textTab {
+	height: 30%;
+	width: 100%;
+	text-align: center;
+	margin-top: -25px;
+}
+
+.textTabtext {
+	height: 100%;
+	width: 20%;
+	text-align: center;
+
+	display: inline-block;
+}
+
+.intro {
+	margin-top: 70px;
+	height: 400px;
+	background-image: url("Images/border2.jpg");
+}
+
+.textAbout {
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.picAbout {
+	vertical-align: top;
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+}
+
+.picAbout img {
+	margin-left: 150px;
+	margin-top: 20px;
+	height: 90%;
+	width: auto;
+}
+
+#education {
+	height: 300px;
+}
+
+.edHeader {
+	height: 20%;
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.edUVA {
+	vertical-align: top;
+	display: inline-block;
+	height: 80%;
+	width: 40%;
+	padding-left: 5%;
+	margin-top: 20px;
+}
+
+.edLine {
+	vertical-align: top;
+	display: inline-block;
+	height: 80%;
+	width: 10%;
+	background-image: url("Images/divider.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.edTrin {
+	display: inline-block;
+	height: 80%;
+	width: 40%;
+	padding-left: 1%;
+	margin-top: 20px;
+}
+
+#coolPic1 {
+	height: 450px;
+}
+
+#workExperience {
+	height: 700px;
+	padding-top: 5px;
+}
+
+.workHeader {
+	height: 60px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.envisionText {
+	display: inline-block;
+	height: 44%;
+	width: 50%;
+}
+
+.envisionPic{
+	display: inline-block;
+	height: 44%;
+	width: 50%;
+	vertical-align: top;
+}
+
+.envisionPic img {
+	margin-left: 225px;
+	margin-top: 15px;
+	height: 80%;
+	width: auto;
+	border-radius: 100%;
+}
+
+.catholicUPic{
+	display: inline-block;
+	height: 43%;
+	width: 50%;
+	vertical-align: top;
+}
+
+.catholicUPic img {
+	margin-left: 140px;
+	margin-top: 25px;
+}
+
+.catholicUText {
+	display: inline-block;
+	height: 43%;
+	width: 50%;
+}
+
+#coolPic2 {
+	height: 500px;
+}
+
+#volAct {
+	height: 1000px;
+}
+
+.volActHead {
+	height: 60px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.volActSegment {
+	display: inline-block;
+	width: 50%;
+	height: 16.66%;
+}
+
+.volActArrow {
+	vertical-align: top;
+	display: inline-block;
+	width: 50%;
+	height: 16.66%;
+}
+
+.volActArrow img {
+	margin-left: 150px;
+	margin-top: 30px;
+	height: 70%;
+	width: 50%;
+}
+
+#skills {
+	height: 400px;
+	background-color: blue;
+}
+
+.skillsHeader {
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	background-color: red;
+}
+
+.blank {
+	height: 400px;
+}
